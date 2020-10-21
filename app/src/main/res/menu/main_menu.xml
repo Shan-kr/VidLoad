@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/Play"
+        android:icon="@drawable/video"
+        android:title="Youtube" />
+
+    <item
+        android:id="@+id/downloadvideo"
+        android:icon="@drawable/download"
+        android:title="Download Video" />
+
+    <item android:id="@+id/insta_profile"
+        android:icon="@drawable/dp"
+        android:title="Insta Profile picture"/>
+
+
+</group>
+
+<item android:title="Profile">
+
+
+<menu>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/login"
+            android:title="Log In" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>
+
+</item>
+
+<item android:title="Communicate">
+
+<menu>
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/rate"
+        android:title="Rate Us" />
+</menu>
+</item>
+    </menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".videoplay">
+
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:id="@+id/webview"
+    android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/webview"
+       android:layout_margin="10dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/title"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textSize="15sp"
+        android:layout_margin="29dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/copybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_alignRight="@id/description"
+            android:layout_margin="16dp"
+            tools:ignore="MissingConstraints,OnClick"
+            app:backgroundTint="@color/white"
+            app:elevation="16dp"
+            android:onClick="linkcopy"
+            app:srcCompat="@drawable/copy" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/downloadbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_alignLeft="@id/description"
+        android:layout_margin="16dp"
+        tools:ignore="MissingConstraints,OnClick"
+        app:backgroundTint="@color/white"
+        app:elevation="16dp"
+        android:onClick="downloadvid"
+        app:srcCompat="@drawable/download" />
+
+
+
+
+</RelativeLayout>

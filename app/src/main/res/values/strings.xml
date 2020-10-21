@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VidLoad</string>
+    <string name="label">Search Video</string>
+    <string name="Searchvideo">Search Video</string>
+    <string name="favorite">favourite</string>
+    <string name="search">Search</string>
+    <string name="more">more</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="Download_Video">Download Video</string>
+    <string name="Insta_Profile">Instagram Profile</string>
+    <string name="Link">Paste Link</string>
+    <string name="download_complete">Download Succesfull</string>
+    <string name="download_failed">Download Failed</string>
+    <string name="download_start">Downloading......</string>
+    <string name="start">Start</string>
+    <string name="url_hint">.........</string>
+    <string name="url_error">Error</string>
+    <string name="Vidload">Vid Load</string>
+</resources>
