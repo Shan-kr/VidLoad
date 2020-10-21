@@ -241,7 +241,7 @@ public class Downloadvideo extends AppCompatActivity implements  NavigationView.
     @NonNull
     private File getDownloadLocation() {
         File downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File youtubeDLDir = new File(downloadsDir, "youtubedl-android");
+        File youtubeDLDir = new File(downloadsDir, "vidload");
 
         if (!youtubeDLDir.exists())
             youtubeDLDir.mkdir();

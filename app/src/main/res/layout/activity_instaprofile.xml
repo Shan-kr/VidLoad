@@ -53,19 +53,42 @@ android:fitsSystemWindows="true"
     </RelativeLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"
         android:id="@+id/inputfield"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="25dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"
         android:layout_below="@id/appbar"
-        android:background="#FFFFFF"/>
+        android:textAlignment="center"
+        android:elevation="2dp"
+        android:hint="Search Profile"/>
     <com.google.android.material.button.MaterialButton android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:id="@+id/searchprofile"
+        android:onClick="searchprofile"
         android:layout_below="@id/inputfield"
         android:text="Search profile"
         android:layout_centerHorizontal="true"
-        android:elevation="8dp"/>
-
+        android:elevation="8dp"
+        tools:ignore="OnClick" />
+    <ImageView
+        android:layout_width="400dp"
+        android:id="@+id/imgProfilePic"
+        android:layout_margin="15dp"
+        android:elevation="8dp"
+        android:layout_height="400dp"
+        android:src="@drawable/profile1"
+        android:layout_below="@id/searchprofile"/>
+    <!--com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfilePic"
+        android:onClick="save"
+        android:layout_centerHorizontal="true"
+        android:text="Save"
+        android:elevation="2dp"/-->
 
 </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
