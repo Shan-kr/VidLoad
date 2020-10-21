@@ -12,7 +12,7 @@ A Android App where you can Watch videos and Download Video.this App uses Youtub
  * Home Screen
  ![Screenshot_2020-10-21-12-04-45-133_com example vidload](https://user-images.githubusercontent.com/68410510/96682773-eb61a800-1396-11eb-8f3e-165820d1a89a.jpg)
  ![Screenshot_2020-10-21-12-04-48-002_com example vidload](https://user-images.githubusercontent.com/68410510/96682900-18ae5600-1397-11eb-82fe-fccf6a77ebcf.jpg)
- 
+
  * Streaming video
  ![Screenshot_2020-10-21-12-04-52-840_com example vidload](https://user-images.githubusercontent.com/68410510/96683077-4b584e80-1397-11eb-88f2-fcdeaa19f1ed.jpg)
  ![Screenshot_2020-10-21-12-05-00-004_com example vidload](https://user-images.githubusercontent.com/68410510/96683347-b4d85d00-1397-11eb-81f1-b40771b20d41.jpg)
