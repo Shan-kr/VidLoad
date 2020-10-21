@@ -12,4 +12,8 @@ A Android App where you can Watch videos and Download Video.this App uses Youtub
 
 # Streaming Video Screen
 ![Streaming](https://user-images.githubusercontent.com/68410510/96721508-d9e5c380-13c9-11eb-80bb-96fc9782e5d1.jpg)
+![Streaming1](https://user-images.githubusercontent.com/68410510/96722693-47deba80-13cb-11eb-9104-ee4a16ea6a2e.jpg)
+
+# Downloading Vidoes
+![downloading](https://user-images.githubusercontent.com/68410510/96723036-b4f25000-13cb-11eb-9318-020f02e6ebfa.jpg)
 
